@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="silos.css">
+</head>
+<body>
+    <div class="contenedor1">
+        <div >
+            <h4>Ingreso a los silos</h4>
+            <label>Seleccionar Silos
+                <select id="opciones">
+                    <option value="soja">Soja</option>
+                    <option value="maiz">Maíz</option>
+                </select>
+            </label>
+            <label>Ingresar Cantidad (kg)
+                <input type="number" id="cantidad" placeholder="Ingresa Número">
+            </label>
+            <button onclick="cargarSilos()">Enviar</button>
+            <p id="resultado"></p>
+        </div>
+    </div>    
+    <script src="silos.js"></script>    
+</body>
+</html>
